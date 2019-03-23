@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eada7a725a488046b7fe1cd8e766445, type: 3}
+  m_Name: Town
+  m_EditorClassIdentifier: 
+  DisplayName: Town
+  DisplayColor: {r: 0.33745933, g: 1, b: 0, a: 0}
+  WinCondition: []

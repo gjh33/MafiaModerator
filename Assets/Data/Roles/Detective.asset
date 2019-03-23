@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b3fb2a6ba829e141a450fcf8041cb25, type: 3}
+  m_Name: Detective
+  m_EditorClassIdentifier: 
+  DisplayName: Detective
+  StartingAllegiance: {fileID: 11400000, guid: 54471c707cf1b7f4caae1df4b9e476c4, type: 2}
+  Actions:
+  - {fileID: 11400000, guid: c03d1025cab610742a3095624e539ded, type: 2}
+  WinCondition: {fileID: 11400000, guid: 39e3c1a04d4fad143894a3aa641a99b3, type: 2}
