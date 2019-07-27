@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: Detective
   StartingAllegiance: {fileID: 11400000, guid: 54471c707cf1b7f4caae1df4b9e476c4, type: 2}
+  StartingFlags: []
+  StartingCounters: []
+  SetupActions: []
   Actions:
   - {fileID: 11400000, guid: c03d1025cab610742a3095624e539ded, type: 2}
-  WinCondition: {fileID: 11400000, guid: 39e3c1a04d4fad143894a3aa641a99b3, type: 2}
+  WinCondition: {fileID: 0}

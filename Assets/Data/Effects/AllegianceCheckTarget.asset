@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b42f3e17c721c04597fec812fd714f5, type: 3}
   m_Name: AllegianceCheckTarget
   m_EditorClassIdentifier: 
-  AppliesTo: 0
+  AppliesTo: 1
   ReferenceChain: []
   Target: 0
   Query:

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 772478971, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: ColorPaletteManager
+  m_EditorClassIdentifier: 
+  colorPalettes:
+  - name: Main
+    showAlpha: 0
+    colors:
+    - {r: 0.7176471, g: 0.10980392, b: 0.10980392, a: 0}
+    - {r: 0.9411765, g: 0.33333334, b: 0.27058825, a: 0}
+    - {r: 0.49803922, g: 0, b: 0, a: 0}
+    - {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 0}
+    - {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 0}
+    - {r: 0, g: 0, b: 0, a: 0}
+    - {r: 1, g: 1, b: 1, a: 0}
+    - {r: 1, g: 1, b: 1, a: 0}
+  - name: Allegiance Colors
+    showAlpha: 0
+    colors:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 0.21960784, g: 0.7647059, b: 0.28235295, a: 1}
+    - {r: 0.9843137, g: 1, b: 0.29803923, a: 1}
+    - {r: 0.79607844, g: 0.25882354, b: 0.25882354, a: 1}
+    - {r: 1, g: 0.7137255, b: 0, a: 1}
+    - {r: 1, g: 0.5176471, b: 0.7882353, a: 1}
+    - {r: 0.61960787, g: 0.27058825, b: 0.8509804, a: 1}
+    - {r: 0.30980393, g: 0.38039216, b: 0.83137256, a: 1}
+    - {r: 0.20392157, g: 0.7490196, b: 0.73333335, a: 1}

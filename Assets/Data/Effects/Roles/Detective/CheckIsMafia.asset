@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e5bf8276836696459483258c3c990c2, type: 3}
   m_Name: CheckIsMafia
   m_EditorClassIdentifier: 
-  AppliesTo: 0
+  AppliesTo: 1
   ReferenceChain: []
   Target: 0
   Query:
@@ -24,10 +24,11 @@ MonoBehaviour:
     CounterRequirements: []
   CheckQuery:
     Status: 0
-    RequiredAllegiance: {fileID: 0}
+    RequiredAllegiance: {fileID: 11400000, guid: f7e5ede3250781a4e8804ecb599dbdf5,
+      type: 2}
     RequiredRole: {fileID: 0}
     RequiredFlags: []
     ForbiddenFlags: []
     CounterRequirements: []
-  QueryPassResponse: 
-  QueryFailResponse: 
+  QueryPassResponse: is mafia!
+  QueryFailResponse: is not mafia!

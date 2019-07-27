@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: Mafioso
   StartingAllegiance: {fileID: 11400000, guid: f7e5ede3250781a4e8804ecb599dbdf5, type: 2}
+  StartingFlags: []
+  StartingCounters: []
+  SetupActions: []
   Actions: []
-  WinCondition: {fileID: 11400000, guid: 820164b4ef56b4d41a8e7f33e33786fc, type: 2}
+  WinCondition: {fileID: 0}

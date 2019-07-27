@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Town
   m_EditorClassIdentifier: 
   DisplayName: Town
-  DisplayColor: {r: 0.33745933, g: 1, b: 0, a: 0}
-  WinCondition: []
+  DisplayColor: {r: 0.21960784, g: 0.7647059, b: 0.28235295, a: 1}
+  WinConditions: {fileID: 11400000, guid: 39e3c1a04d4fad143894a3aa641a99b3, type: 2}

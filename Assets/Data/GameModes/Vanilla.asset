@@ -12,26 +12,104 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fd61252822dd2b479ba675354dbb2f3, type: 3}
   m_Name: Vanilla
   m_EditorClassIdentifier: 
-  DisplayName: 
+  DisplayName: Vanilla
   Roles:
   - {fileID: 11400000, guid: 9e8942f9d8e560d459b4b43fe3d2ff3c, type: 2}
-  - {fileID: 11400000, guid: b6aae6ec6d10fb148889ca147c648157, type: 2}
   - {fileID: 11400000, guid: b6aae6ec6d10fb148889ca147c648157, type: 2}
   - {fileID: 11400000, guid: 594469b3ff860cc46bc7f8a6a2dfeca1, type: 2}
   - {fileID: 11400000, guid: f6fd6ca7d83ff5e4c8a9b1d41b2106c2, type: 2}
   - {fileID: 11400000, guid: 3eb718290ef9eff4e83795b7dfe0105a, type: 2}
-  - {fileID: 11400000, guid: 3eb718290ef9eff4e83795b7dfe0105a, type: 2}
-  - {fileID: 11400000, guid: 3eb718290ef9eff4e83795b7dfe0105a, type: 2}
+  - {fileID: 11400000, guid: 7cb92464291c47148b77b249dd1cfda0, type: 2}
   ExecutionOrder:
-  - ExecutingRole: {fileID: 11400000, guid: f6fd6ca7d83ff5e4c8a9b1d41b2106c2, type: 2}
-    ExecutingAction: {fileID: 11400000, guid: 22f75d879f6ce2e468b852954d5200d5, type: 2}
-    Effect: {fileID: 11400000, guid: 801a4638056619041b069125c5b8ab26, type: 2}
   - ExecutingRole: {fileID: 11400000, guid: f6fd6ca7d83ff5e4c8a9b1d41b2106c2, type: 2}
     ExecutingAction: {fileID: 11400000, guid: 22f75d879f6ce2e468b852954d5200d5, type: 2}
     Effect: {fileID: 11400000, guid: 2f65362742cc9c14b8c5a7cd5803c8e8, type: 2}
   - ExecutingRole: {fileID: 11400000, guid: f6fd6ca7d83ff5e4c8a9b1d41b2106c2, type: 2}
     ExecutingAction: {fileID: 11400000, guid: 22f75d879f6ce2e468b852954d5200d5, type: 2}
+    Effect: {fileID: 11400000, guid: 801a4638056619041b069125c5b8ab26, type: 2}
+  - ExecutingRole: {fileID: 11400000, guid: f6fd6ca7d83ff5e4c8a9b1d41b2106c2, type: 2}
+    ExecutingAction: {fileID: 11400000, guid: 22f75d879f6ce2e468b852954d5200d5, type: 2}
     Effect: {fileID: 11400000, guid: 310186ec9c7cf4d4ab79f3ce5d7b635e, type: 2}
+  - ExecutingRole: {fileID: 11400000, guid: 594469b3ff860cc46bc7f8a6a2dfeca1, type: 2}
+    ExecutingAction: {fileID: 11400000, guid: c03d1025cab610742a3095624e539ded, type: 2}
+    Effect: {fileID: 11400000, guid: 9321ac0c79133004ebc7d99facc3e1a5, type: 2}
   - ExecutingRole: {fileID: 11400000, guid: 9e8942f9d8e560d459b4b43fe3d2ff3c, type: 2}
     ExecutingAction: {fileID: 11400000, guid: bc04eb69c2227104e9aaf25928bdcedd, type: 2}
     Effect: {fileID: 11400000, guid: 4539c58189cfa5a41bb652591232f2f9, type: 2}
+  - ExecutingRole: {fileID: 11400000, guid: 7cb92464291c47148b77b249dd1cfda0, type: 2}
+    ExecutingAction: {fileID: 11400000, guid: 8c9d048f0cdcda544b713dba080f91e1, type: 2}
+    Effect: {fileID: 11400000, guid: 355792a3f46e7f54c97e1b4508298b71, type: 2}
+  - ExecutingRole: {fileID: 11400000, guid: 7cb92464291c47148b77b249dd1cfda0, type: 2}
+    ExecutingAction: {fileID: 11400000, guid: 8c9d048f0cdcda544b713dba080f91e1, type: 2}
+    Effect: {fileID: 11400000, guid: 4539c58189cfa5a41bb652591232f2f9, type: 2}
+  Variants:
+  - Name: Recommended (8 Players)
+    RoleCounts:
+    - Role: {fileID: 11400000, guid: 9e8942f9d8e560d459b4b43fe3d2ff3c, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: b6aae6ec6d10fb148889ca147c648157, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: 594469b3ff860cc46bc7f8a6a2dfeca1, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: f6fd6ca7d83ff5e4c8a9b1d41b2106c2, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: 3eb718290ef9eff4e83795b7dfe0105a, type: 2}
+      Count: 3
+    - Role: {fileID: 11400000, guid: 7cb92464291c47148b77b249dd1cfda0, type: 2}
+      Count: 1
+  - Name: Recommended (9 Players)
+    RoleCounts:
+    - Role: {fileID: 11400000, guid: 9e8942f9d8e560d459b4b43fe3d2ff3c, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: b6aae6ec6d10fb148889ca147c648157, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: 594469b3ff860cc46bc7f8a6a2dfeca1, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: f6fd6ca7d83ff5e4c8a9b1d41b2106c2, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: 3eb718290ef9eff4e83795b7dfe0105a, type: 2}
+      Count: 4
+    - Role: {fileID: 11400000, guid: 7cb92464291c47148b77b249dd1cfda0, type: 2}
+      Count: 1
+  - Name: Recommended (10 Players)
+    RoleCounts:
+    - Role: {fileID: 11400000, guid: 9e8942f9d8e560d459b4b43fe3d2ff3c, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: b6aae6ec6d10fb148889ca147c648157, type: 2}
+      Count: 2
+    - Role: {fileID: 11400000, guid: 594469b3ff860cc46bc7f8a6a2dfeca1, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: f6fd6ca7d83ff5e4c8a9b1d41b2106c2, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: 3eb718290ef9eff4e83795b7dfe0105a, type: 2}
+      Count: 4
+    - Role: {fileID: 11400000, guid: 7cb92464291c47148b77b249dd1cfda0, type: 2}
+      Count: 1
+  - Name: Recommended (11 Players)
+    RoleCounts:
+    - Role: {fileID: 11400000, guid: 9e8942f9d8e560d459b4b43fe3d2ff3c, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: b6aae6ec6d10fb148889ca147c648157, type: 2}
+      Count: 2
+    - Role: {fileID: 11400000, guid: 594469b3ff860cc46bc7f8a6a2dfeca1, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: f6fd6ca7d83ff5e4c8a9b1d41b2106c2, type: 2}
+      Count: 1
+    - Role: {fileID: 11400000, guid: 3eb718290ef9eff4e83795b7dfe0105a, type: 2}
+      Count: 5
+    - Role: {fileID: 11400000, guid: 7cb92464291c47148b77b249dd1cfda0, type: 2}
+      Count: 1
+  - Name: New Variant
+    RoleCounts:
+    - Role: {fileID: 11400000, guid: 9e8942f9d8e560d459b4b43fe3d2ff3c, type: 2}
+      Count: 0
+    - Role: {fileID: 11400000, guid: b6aae6ec6d10fb148889ca147c648157, type: 2}
+      Count: 0
+    - Role: {fileID: 11400000, guid: 594469b3ff860cc46bc7f8a6a2dfeca1, type: 2}
+      Count: 0
+    - Role: {fileID: 11400000, guid: f6fd6ca7d83ff5e4c8a9b1d41b2106c2, type: 2}
+      Count: 0
+    - Role: {fileID: 11400000, guid: 3eb718290ef9eff4e83795b7dfe0105a, type: 2}
+      Count: 0
+    - Role: {fileID: 11400000, guid: 7cb92464291c47148b77b249dd1cfda0, type: 2}
+      Count: 0

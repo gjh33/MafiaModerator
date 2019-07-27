@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110540caa989ba749afcf2742d845d07, type: 3}
+  m_Name: ShootTarget
+  m_EditorClassIdentifier: 
+  DisplayName: Shoot Target
+  Targeting: 1
+  Conditions:
+  - {fileID: 11400000, guid: 57dec4c67889fcf489e4fda8e903eb45, type: 2}
+  Effects:
+  - {fileID: 11400000, guid: 355792a3f46e7f54c97e1b4508298b71, type: 2}
+  - {fileID: 11400000, guid: 4539c58189cfa5a41bb652591232f2f9, type: 2}

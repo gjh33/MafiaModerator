@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: Godfather
   StartingAllegiance: {fileID: 11400000, guid: f7e5ede3250781a4e8804ecb599dbdf5, type: 2}
+  StartingFlags: []
+  StartingCounters: []
+  SetupActions: []
   Actions:
   - {fileID: 11400000, guid: bc04eb69c2227104e9aaf25928bdcedd, type: 2}
-  WinCondition: {fileID: 11400000, guid: 820164b4ef56b4d41a8e7f33e33786fc, type: 2}
+  WinCondition: {fileID: 0}
